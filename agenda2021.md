@@ -40,7 +40,7 @@
 | 18:35 | Fernando Ike | Observabilidade com OpenTelemetry |
 | 19:05 | Mateus Caruccio |  |
 | 19:35 | RESPIRO |  |
-| 20:05 | Peixe Babel | Mila e Vivi | Deep Learning: Mitos e Verdades |
+| 20:05 | Peixe Babel - Mila e Vivi | Deep Learning: Mitos e Verdades |
 | 20:35 | Giovanni Bassi | Montando um micro container from Scratch com Rust |
 | 21:05 | Carlisia Thompson | Carreira a Prova de Bala com Open Source |
 | 21:35 | Luiz Aoqui |  |
