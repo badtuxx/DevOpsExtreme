@@ -6,7 +6,7 @@
 | 01:35 | Sebastian Webber | Vou falar sobre 12 factor databases |
 | 02:05 | Rafael Benvenuti | Troubleshooting com Wireshark |
 | 02:35 | Caio Delgado | Transição de Carreira de closed para OpenSource/DevOps |
-| 03:05 | Hugo Prudente | Zuul CI com Ansible Nativo |
+| 03:05 | Hugo Prudente | [Zuul CI com Ansible Nativo](arquivos/hugoprudente/zuul-ci-30min.pdf) |
 | 03:35 | Giordando Fechio | Teste em Infra com Terratest |
 | 04:05 | RESPIRO |  |
 | 04:35 | Julio Faerman | Sobrevivendo ao Kubernetes na AWS |
