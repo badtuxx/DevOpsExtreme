@@ -38,7 +38,7 @@
 | 17:35 | William Espinosa |  |
 | 18:05 | Roberta Robert |  |
 | 18:35 | Fernando Ike | Observabilidade com OpenTelemetry |
-| 19:05 | Mateus Caruccio |  |
+| 19:05 | Mateus Caruccio | GitOps com Flux2 |
 | 19:35 | RESPIRO |  |
 | 20:05 | Peixe Babel - Mila e Vivi | Deep Learning: Mitos e Verdades |
 | 20:35 | Giovanni Bassi | Montando um micro container from Scratch com Rust |
