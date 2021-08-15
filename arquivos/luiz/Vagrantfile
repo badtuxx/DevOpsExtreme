@@ -1,0 +1,107 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+ip = "10.199.0.10"
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/focal64"
+
+  config.vm.network :private_network, ip: ip
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+  end
+
+  config.vm.synced_folder "./jobs", "/home/vagrant/jobs"
+
+  config.vm.provision "shell", name: "deps", inline: <<-SHELL
+    # Instalando Nomad, Consul e Docker.
+    curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+
+    # As vezes isso falha ¯\_(ツ)_/¯
+    n=10
+    while [ "$n" -ge 0 ]; do
+      apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+      apt-add-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+      apt-get update
+      apt-get install -y nomad=1.1.3 consul=1.10.1 docker-ce docker-ce-cli containerd.io && break
+
+      n=$((n-1))
+      sleep 1
+    done
+    if [ "$n" -lt 0 ]; then
+      exit 1
+    fi
+
+    # Instalando plugins CNI para bridge network e Consul Connect.
+    curl -L -o cni-plugins.tgz "https://github.com/containernetworking/plugins/releases/download/v1.0.0/cni-plugins-linux-amd64-v1.0.0.tgz"
+    mkdir -p /opt/cni/bin
+    tar -C /opt/cni/bin -xzf cni-plugins.tgz
+    rm cni-plugins.tgz
+
+    # Habilitand bridge network.
+    modprobe br_netfilter
+    echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-arptables
+    echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-ip6tables
+    echo 1 | sudo tee /proc/sys/net/bridge/bridge-nf-call-iptables
+  SHELL
+
+  config.vm.provision "shell", name: "config", inline: <<-SHELL
+    # Configurando o Consul.
+    cat <<EOT > /etc/consul.d/consul.hcl
+data_dir = "/opt/consul"
+
+client_addr    = "0.0.0.0"
+bind_addr      = "0.0.0.0"
+advertise_addr = "#{ip}"
+
+server           = true
+bootstrap_expect = 1
+
+ui_config {
+  enabled = true
+}
+
+connect {
+  enabled = true
+}
+
+ports {
+  grpc = 8502
+}
+EOT
+
+    # Configurando o Nomad.
+    mkdir -p /opt/nomad_volumes/mysql
+    cat <<EOT > /etc/nomad.d/nomad.hcl
+data_dir = "/opt/nomad/data"
+bind_addr = "0.0.0.0"
+
+server {
+  enabled          = true
+  bootstrap_expect = 1
+}
+
+client {
+  enabled = true
+  servers = ["127.0.0.1"]
+
+  network_interface = "{{ GetPrivateInterfaces | include \\\"address\\\" \\\"#{ip}\\\" | attr \\\"name\\\" }}"
+
+  host_volume "mysql" {
+    path = "/opt/nomad_volumes/mysql"
+  }
+}
+EOT
+  SHELL
+
+  config.vm.provision "shell", name: "setup", inline: <<-SHELL
+    systemctl enable nomad
+    systemctl enable consul
+
+    systemctl restart nomad
+    systemctl restart consul
+  SHELL
+end

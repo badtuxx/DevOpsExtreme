@@ -1,5 +1,5 @@
 | Horário GMT-3 | Palestrante  | Palestra |
-|---|---|---| 
+|---|---|---|
 | 00:05 | Patricia Ladislau | Boas práticas no post-installation do Zabbix: não é só instalar e deixar à deriva! |
 | 00:35 | Joao Freire | O Kubernetes é seguro por padrão? |
 | 01:05 | Camila PunkDoDevOps | dev, stg e produção: qual a diferença desses ambientes? |
@@ -43,7 +43,7 @@
 | 20:05 | Peixe Babel - Mila e Vivi | Deep Learning: Mitos e Verdades |
 | 20:35 | Giovanni Bassi | Montando um micro container from Scratch com Rust |
 | 21:05 | Carlisia Thompson | Carreira a Prova de Bala com Open Source |
-| 21:35 | Luiz Aoqui |  |
+| 21:35 | Luiz Aoqui | [Desmistificando Redes no HashiCorp Nomad](arquivos/luiz) |
 | 22:05 | Roberta Arcoverde |  |
 | 22:35 | Vanny Moura |  |
 | 23:05 | Gabs Ferreira |  |
