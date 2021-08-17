@@ -43,7 +43,7 @@
 | 20:05 | [Peixe Babel](https://www.linkedin.com/in/camila-laranjeira-a65b9069/) - Mila e Vivi | Deep Learning: Mitos e Verdades |
 | 20:35 | [Giovanni Bassi](https://www.linkedin.com/in/giovannibassi/) | Montando um micro container from Scratch com Rust |
 | 21:05 | [Carlisia Thompson](https://www.linkedin.com/in/carlisia/) | Carreira a Prova de Bala com Open Source |
-| 21:35 | [Luiz Aoqui](https://www.linkedin.com/in/luizaoqui/) |  |
+| 21:35 | [Luiz Aoqui](https://www.linkedin.com/in/luizaoqui/) | [Desmistificando Redes no HashiCorp Nomad](arquivos/luiz) |
 | 22:05 | [Roberta Arcoverde](https://www.linkedin.com/in/robertaarcoverde/) |  |
 | 22:35 | [Vanny Moura](https://twitter.com/WonderWanny) |  |
 | 23:05 | [Gabs Ferreira](https://www.linkedin.com/in/gabsferreira/) |  |
