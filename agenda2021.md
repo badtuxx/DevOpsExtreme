@@ -25,8 +25,8 @@
 | 11:05 | [Camila Maia](https://www.linkedin.com/in/cmaiacd/) | CI e automação de deploys em bibliotecas Python. |
 | 11:35 | Somatório |  |
 | 12:05 | [Ellen Korbes](https://www.linkedin.com/in/ellenkorbes/) |  |
-| 12:35 | SOM  |  |
-| 13:05 | SOM  |  |
+| 12:35 | DJThiagoXA | Músicas |
+| 13:05 | DJThiagoXA  | Músicas |
 | 13:35 | [Heitor Lessa](https://www.linkedin.com/in/heitorlessa/) | Descomplicando Serverless com Python |
 | 14:05 | [Thiago Finardi](https://www.linkedin.com/in/thiagofinardi/) | De Militar a SRE: Jornada para o DevOps em uma infra tradicional |
 | 14:35 | [Letícia Silva](https://www.linkedin.com/in/lsilvadev/) | Conselhos dados (mas que eu deveria vender): Intersecções entre tecnologia e soft skills |
@@ -38,7 +38,7 @@
 | 17:35 | [William Espinosa](https://www.linkedin.com/in/william-espinosa-713909b2/) |  |
 | 18:05 | [Roberta Robert](https://www.linkedin.com/in/robertarobert/) |  |
 | 18:35 | [Fernando Ike](https://www.linkedin.com/in/fernandoike/) | Observabilidade com OpenTelemetry |
-| 19:05 | [Mateus Caruccio](https://www.linkedin.com/in/mateus-caruccio/) |  |
+| 19:05 | [Mateus Caruccio](https://www.linkedin.com/in/mateus-caruccio/) | GitOps com Flux2 |
 | 19:35 | RESPIRO |  |
 | 20:05 | [Peixe Babel](https://www.linkedin.com/in/camila-laranjeira-a65b9069/) - Mila e Vivi | Deep Learning: Mitos e Verdades |
 | 20:35 | [Giovanni Bassi](https://www.linkedin.com/in/giovannibassi/) | Montando um micro container from Scratch com Rust |
