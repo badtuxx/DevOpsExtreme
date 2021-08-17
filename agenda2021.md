@@ -3,11 +3,11 @@
 | 00:05 | [Patricia Ladislau](https://www.linkedin.com/in/patricialadislausilva/) | Boas práticas no post-installation do Zabbix: não é só instalar e deixar à deriva! |
 | 00:35 | [Joao Freire](https://www.linkedin.com/in/joaopaulocunhafreire/) | O Kubernetes é seguro por padrão? |
 | 01:05 | [Camila PunkDoDevOps](https://www.linkedin.com/in/camilla-martins-603344115/) | dev, stg e produção: qual a diferença desses ambientes? |
-| 01:35 | [Sebastian Webber](https://www.linkedin.com/in/sebawebber/) | [12+ factor databases](arquivos/sebawebber/12-factor-databases.pdf) |
+| 01:35 | [Sebastian Webber](https://www.linkedin.com/in/sebawebber/) | [12+ factor databases](talks/sebawebber/12-factor-databases.pdf) |
 | 02:05 | [Rafael Benvenuti](https://www.linkedin.com/in/rafaelbenvenuti/) | Troubleshooting com Wireshark |
 | 02:35 | [Caio Delgado](https://www.linkedin.com/in/caio-delgado/) | Transição de Carreira de closed para OpenSource/DevOps |
-| 03:05 | [Hugo Prudente](https://www.linkedin.com/in/hugoprudente/) | [Zuul CI com Ansible Nativo](arquivos/hugoprudente/zuul-ci-30min.pdf) |
-| 03:35 | [Giordano Fechio](https://www.linkedin.com/in/gfechio/) | Teste em Infra com Terratest |
+| 03:05 | [Hugo Prudente](https://www.linkedin.com/in/hugoprudente/) | [Zuul CI com Ansible Nativo](talks/hugoprudente/zuul-ci-30min.pdf) |
+| 03:35 | [Giordano Fechio](https://www.linkedin.com/in/gfechio/) | [Teste em Infra com Terratest](talks/GiordanoFechio) |
 | 04:05 | RESPIRO |  |
 | 04:35 | [Julio Faerman](https://www.linkedin.com/in/faermanj/) | Sobrevivendo ao Kubernetes na AWS |
 | 05:05 | [Lucas Severo](https://www.linkedin.com/in/lucas-severo-317540185/) | "External Secrets Operator: gerenciando seus segredos de maneira Cloud Native |
@@ -43,7 +43,7 @@
 | 20:05 | [Peixe Babel](https://www.linkedin.com/in/camila-laranjeira-a65b9069/) - Mila e Vivi | Deep Learning: Mitos e Verdades |
 | 20:35 | [Giovanni Bassi](https://www.linkedin.com/in/giovannibassi/) | Montando um micro container from Scratch com Rust |
 | 21:05 | [Carlisia Thompson](https://www.linkedin.com/in/carlisia/) | Carreira a Prova de Bala com Open Source |
-| 21:35 | [Luiz Aoqui](https://www.linkedin.com/in/luizaoqui/) | [Desmistificando Redes no HashiCorp Nomad](arquivos/luiz) |
+| 21:35 | [Luiz Aoqui](https://www.linkedin.com/in/luizaoqui/) | [Desmistificando Redes no HashiCorp Nomad](talks/luiz) |
 | 22:05 | [Roberta Arcoverde](https://www.linkedin.com/in/robertaarcoverde/) |  |
 | 22:35 | [Vanny Moura](https://twitter.com/WonderWanny) |  |
 | 23:05 | [Gabs Ferreira](https://www.linkedin.com/in/gabsferreira/) |  |
