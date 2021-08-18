@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../lambda/index.ts", "../lambda/api.ts"],
+  "sourcesContent": ["export { handler as ApiLambda } from \"./api\";\n", "import { Handler } from \"aws-lambda\";\nimport config from \"../config.json\";\n\nexport const handler: Handler = async event => {\n  return {\n    body: `Ol\u00E1 DevOpsExtreme, Fora Bolsonaro: \"${event.path}\"`,\n    headers: config.headers,\n    statusCode: 200,\n  };\n};\n"],
+  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;ACGO,IAAM,UAAmB,OAAM,UAAS;AAC7C,SAAO;AAAA,IACL,MAAM,0CAAuC,MAAM;AAAA,IACnD,SAAS,eAAO;AAAA,IAChB,YAAY;AAAA;AAAA;",
+  "names": []
+}

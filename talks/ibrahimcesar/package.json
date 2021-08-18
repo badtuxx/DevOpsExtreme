@@ -1,0 +1,19 @@
+{
+  "name": "deveops-extreme",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.82",
+    "@types/node": "^16.6.1",
+    "aws-sdk": "^2.967.0",
+    "esbuild": "^0.12.20",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.118.0",
+    "@aws-cdk/aws-lambda": "^1.118.0",
+    "@aws-cdk/core": "^1.118.0",
+    "aws-cdk": "^1.118.0"
+  }
+}
