@@ -1,5 +1,12 @@
+<div align="center">
+
+<img src="https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2021/01/15/cdk-logo6-1260x476.png" alt="CDK" width="620" />
+
 # Do Zero ao ‘Salve Mundo!’ em AWS CDK
-> 2021-08-13
+  
+</div>
+
+> 2021-08-13 **DevOpsExtreme**
 
 - [Slides PDF](./slides.pdf)
 - [Slides link](https://docs.google.com/presentation/d/e/2PACX-1vQBxiBp89KqWWfvlMHoDqMjbyq638D6-rH0jYPo212N9lNh5ACo4xp380Wd1H83A6M1y-z50WBt4APx/pub)
