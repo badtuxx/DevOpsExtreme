@@ -13,7 +13,7 @@
 | 05:05 | [Lucas Severo](https://www.linkedin.com/in/lucas-severo-317540185/) | "External Secrets Operator: gerenciando seus segredos de maneira Cloud Native |
 | 05:35 | [Samuel Cavallieri](https://www.linkedin.com/in/samuel-cavallieri/) | Perfomance test com Yandex-tank |
 | 06:05 | [Lucas De Souza](https://www.linkedin.com/in/ldsouza1220/) | Administrando IaC de múltiplos ambientes com Terragrunt |
-| 06:35 | [Ibrahim Cesar](https://www.linkedin.com/in/ibrahimcesar/) | Do zero ao "Salve Mundo" em AWS CDK — Cloud Development Kit |
+| 06:35 | [Ibrahim Cesar](https://www.linkedin.com/in/ibrahimcesar/) | [Do zero ao "Salve Mundo" em AWS CDK — Cloud Development Kit](talks/ibrahimcesar) |
 | 07:05 | RESPIRO | |
 | 07:35 | [Magno Logan](https://www.linkedin.com/in/magnologan/) |  |
 | 08:05 | Gomex |  |
