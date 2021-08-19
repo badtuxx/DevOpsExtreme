@@ -32,7 +32,7 @@
 | 14:35 | [Letícia Silva](https://www.linkedin.com/in/lsilvadev/) | Conselhos dados (mas que eu deveria vender): Intersecções entre tecnologia e soft skills |
 | 15:05 | [Cristiano Diedrich](https://www.linkedin.com/in/cristianodiedrich/) |  |
 | 15:35 | [Juli Gaioso](https://www.linkedin.com/in/juligaioso/) | Engenharia de requisitos 101 |
-| 16:05 | [Marcelo Castellani](https://www.linkedin.com/in/mfcastellani/) | [Complexidade e o desenvolvimento de software](marcelo_castellani/Complexidade.pdf) |
+| 16:05 | [Marcelo Castellani](https://www.linkedin.com/in/mfcastellani/) | [Complexidade e o desenvolvimento de software](talks/marcelo_castellani/Complexidade.pdf) |
 | 16:35 | [Sheimy Rahman](https://www.linkedin.com/in/sheimyrahman/) | AIOps a filha moderninha da Skynet |
 | 17:05 | [Guto Carvalho](https://www.linkedin.com/in/falagutera/) | Centralizando e obtendo métricas de logs com loki no k8s |
 | 17:35 | [William Espinosa](https://www.linkedin.com/in/william-espinosa-713909b2/) |  |
