@@ -11,7 +11,7 @@
 | [04:05]() | RESPIRO |  |
 | [04:35](https://www.twitch.tv/videos/1116708891?t=04h45m32s) | [Julio Faerman](https://www.linkedin.com/in/faermanj/) | Sobrevivendo ao Kubernetes na AWS |
 | [05:05](https://www.twitch.tv/videos/1116708891?t=05h11m53s) | [Lucas Severo](https://www.linkedin.com/in/lucas-severo-317540185/) | "External Secrets Operator: gerenciando seus segredos de maneira Cloud Native |
-| [05:35](https://www.twitch.tv/videos/1116708891?t=05h47m34s) | [Samuel Cavallieri](https://www.linkedin.com/in/samuel-cavallieri/) | Perfomance test com Yandex-tank |
+| [05:35](https://www.twitch.tv/videos/1116708891?t=05h47m34s) | [Samuel Cavallieri](https://www.linkedin.com/in/samuel-cavallieri/) | [Perfomance test com Yandex-tank](talks/samuel_cavallieri/performance_test_com_yandex_tank.pdf) 
 | [06:05](https://www.twitch.tv/videos/1116708891?t=06h14m58s) | [Lucas De Souza](https://www.linkedin.com/in/ldsouza1220/) | Administrando IaC de múltiplos ambientes com Terragrunt |
 | [06:35](https://www.twitch.tv/videos/1116708891?t=06h44m39s) | [Ibrahim Cesar](https://www.linkedin.com/in/ibrahimcesar/) | [Do zero ao "Salve Mundo" em AWS CDK — Cloud Development Kit](talks/ibrahimcesar) |
 | 07:05 | RESPIRO | |
